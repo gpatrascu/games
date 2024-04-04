@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "games.api", "games.api\games.api.csproj", "{D75A4E0A-90DB-42ED-8F1C-6809C2EFCF1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "games.api.tests", "games.api.tests\games.api.tests.csproj", "{6ED29345-E533-4341-9B29-156F7A4CD9C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Games.Orleans.Integration.Tests", "Games.Orleans.Integration.Tests\Games.Orleans.Integration.Tests.csproj", "{6ED29345-E533-4341-9B29-156F7A4CD9C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "games.grains", "games.grains\games.grains.csproj", "{9F556AC1-2C03-48C2-8CC0-C7EFB91AF790}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6C6BADF0-C7DE-4A37-AB12-2B8CED78EEC8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Games.Cards.Tests", "Games.Cards.Tests\Games.Cards.Tests.csproj", "{7524A63B-9337-4D55-80D7-4C16F68A6093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Games.Api.IntegrationTests", "Games.Api.IntegrationTests\Games.Api.IntegrationTests.csproj", "{D4D45898-241E-4A18-A2DD-F6FD6CFCBD3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,9 +46,14 @@ Global
 		{7524A63B-9337-4D55-80D7-4C16F68A6093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7524A63B-9337-4D55-80D7-4C16F68A6093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7524A63B-9337-4D55-80D7-4C16F68A6093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D45898-241E-4A18-A2DD-F6FD6CFCBD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D45898-241E-4A18-A2DD-F6FD6CFCBD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D45898-241E-4A18-A2DD-F6FD6CFCBD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D45898-241E-4A18-A2DD-F6FD6CFCBD3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6ED29345-E533-4341-9B29-156F7A4CD9C6} = {6C6BADF0-C7DE-4A37-AB12-2B8CED78EEC8}
 		{7524A63B-9337-4D55-80D7-4C16F68A6093} = {6C6BADF0-C7DE-4A37-AB12-2B8CED78EEC8}
+		{D4D45898-241E-4A18-A2DD-F6FD6CFCBD3E} = {6C6BADF0-C7DE-4A37-AB12-2B8CED78EEC8}
 	EndGlobalSection
 EndGlobal

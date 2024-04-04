@@ -3,6 +3,7 @@ using games.grains;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
+using Orleans.Hosting;
 using Orleans.Serialization;
 using Orleans.Storage;
 using Orleans.TestingHost;
@@ -35,13 +36,12 @@ public class TestSiloConfigurator : ISiloConfigurator
         var orleansJsonSerializer = new OrleansJsonSerializer(Options.Create(options));
         //siloBuilder.AddStateStorageBasedLogConsistencyProviderAsDefault();
         siloBuilder.AddLogStorageBasedLogConsistencyProviderAsDefault();
-        siloBuilder.AddMemoryGrainStorageAsDefault();
 
         var storageAccountConnectionString = Keys.GetStorageAccountConnectionString();
 
         siloBuilder.AddAdoNetGrainStorage("BiddingGameGrainStorageDB", options =>
         {
-            options.GrainStorageSerializer = new JsonGrainStorageSerializer(orleansJsonSerializer); 
+            options.GrainStorageSerializer = new JsonGrainStorageSerializer(orleansJsonSerializer);
             options.ConnectionString = @"Data Source=(LocalDb)\ITestSetupFixture;Initial Catalog=profilesDB;Integrated Security=SSPI;AttachDBFilename=C:\Users\g.patrascu\Profiles.mdf";
         });
         
@@ -52,8 +52,6 @@ public class TestSiloConfigurator : ISiloConfigurator
                 options.ConfigureBlobServiceClient(
                     storageAccountConnectionString.Value.Value);
             });
-
-        
 
         siloBuilder.AddAzureTableGrainStorage(
             name: "BiddingGameGrainStorageTable",

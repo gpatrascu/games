@@ -115,6 +115,48 @@
           </enhancedContext>
           <internalId value="6ab42075-3c0a-44d1-8378-21682e33f103" />
         </chat>
+        <chat>
+          <enhancedContext>
+            <enhancedContext>
+              <remoteRepositories>
+                <list>
+                  <remoteRepository>
+                    <remoteUrl value="github.com/gpatrascu/games" />
+                  </remoteRepository>
+                </list>
+              </remoteRepositories>
+            </enhancedContext>
+          </enhancedContext>
+          <internalId value="bd7e3bc6-e1ec-402a-bed2-bb4a4efca846" />
+        </chat>
+        <chat>
+          <enhancedContext>
+            <enhancedContext>
+              <remoteRepositories>
+                <list>
+                  <remoteRepository>
+                    <remoteUrl value="github.com/gpatrascu/games" />
+                  </remoteRepository>
+                </list>
+              </remoteRepositories>
+            </enhancedContext>
+          </enhancedContext>
+          <internalId value="620514c1-c982-4947-9756-baff79cff41e" />
+        </chat>
+        <chat>
+          <enhancedContext>
+            <enhancedContext>
+              <remoteRepositories>
+                <list>
+                  <remoteRepository>
+                    <remoteUrl value="github.com/gpatrascu/games" />
+                  </remoteRepository>
+                </list>
+              </remoteRepositories>
+            </enhancedContext>
+          </enhancedContext>
+          <internalId value="06153660-ce27-43e9-b9bd-480191bfd4d6" />
+        </chat>
       </list>
     </chats>
     <defaultEnhancedContext>

@@ -14,8 +14,9 @@ public interface IBiddingGameGrain : IGrainWithGuidKey
     Task<IReadOnlyList<object>> GetEvents();
 }
 
-[StorageProvider(ProviderName = "BiddingGameGrainStorageTable")]
+[StorageProvider(ProviderName = "BiddingGameGrainStorageDB")]
 public class BiddingGameGrain : JournaledGrain<GameState>, IBiddingGameGrain
+    //,ICustomStorageInterface<GameState, object>
 {
     public async Task Create()
     {

@@ -12,8 +12,6 @@ builder.Host.UseOrleans(static siloBuilder =>
 using var app = builder.Build();
 // </configuration>
 
-// <endpoints>
-app.MapGet("/", static () => "Welcome to the URL shortener, powered by Orleans!");
 
 app.MapGet("/shorten",
     static async (IGrainFactory grains, HttpRequest request, string url) =>
@@ -101,4 +99,7 @@ public sealed record UrlDetails
     [Id(1)]
     public string ShortenedRouteSegment { get; set; } = "";
 }
-// </grain>
+
+
+public partial class Program
+{ }

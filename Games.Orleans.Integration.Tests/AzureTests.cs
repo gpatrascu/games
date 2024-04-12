@@ -16,6 +16,5 @@ public class AzureTests
     public void TestKeyVault()
     {
         _testOutputHelper.WriteLine(Keys.GetStorageAccountConnectionString().Value.Value);
-
     }
 }

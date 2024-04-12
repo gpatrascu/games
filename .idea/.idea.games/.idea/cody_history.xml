@@ -9,6 +9,7 @@
               <remoteRepositories>
                 <list>
                   <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
                     <remoteUrl value="github.com/gpatrascu/games" />
                   </remoteRepository>
                 </list>
@@ -23,6 +24,7 @@
               <remoteRepositories>
                 <list>
                   <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
                     <remoteUrl value="github.com/gpatrascu/games" />
                   </remoteRepository>
                 </list>
@@ -37,6 +39,7 @@
               <remoteRepositories>
                 <list>
                   <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
                     <remoteUrl value="github.com/gpatrascu/games" />
                   </remoteRepository>
                 </list>
@@ -51,6 +54,7 @@
               <remoteRepositories>
                 <list>
                   <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
                     <remoteUrl value="github.com/gpatrascu/games" />
                   </remoteRepository>
                 </list>
@@ -65,6 +69,7 @@
               <remoteRepositories>
                 <list>
                   <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
                     <remoteUrl value="github.com/gpatrascu/games" />
                   </remoteRepository>
                 </list>
@@ -79,6 +84,7 @@
               <remoteRepositories>
                 <list>
                   <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
                     <remoteUrl value="github.com/gpatrascu/games" />
                   </remoteRepository>
                 </list>
@@ -93,6 +99,7 @@
               <remoteRepositories>
                 <list>
                   <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
                     <remoteUrl value="github.com/gpatrascu/games" />
                   </remoteRepository>
                 </list>
@@ -107,6 +114,7 @@
               <remoteRepositories>
                 <list>
                   <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
                     <remoteUrl value="github.com/gpatrascu/games" />
                   </remoteRepository>
                 </list>
@@ -121,6 +129,7 @@
               <remoteRepositories>
                 <list>
                   <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
                     <remoteUrl value="github.com/gpatrascu/games" />
                   </remoteRepository>
                 </list>
@@ -135,6 +144,7 @@
               <remoteRepositories>
                 <list>
                   <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
                     <remoteUrl value="github.com/gpatrascu/games" />
                   </remoteRepository>
                 </list>
@@ -149,6 +159,7 @@
               <remoteRepositories>
                 <list>
                   <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
                     <remoteUrl value="github.com/gpatrascu/games" />
                   </remoteRepository>
                 </list>
@@ -157,6 +168,43 @@
           </enhancedContext>
           <internalId value="06153660-ce27-43e9-b9bd-480191bfd4d6" />
         </chat>
+        <chat>
+          <enhancedContext>
+            <enhancedContext>
+              <remoteRepositories>
+                <list>
+                  <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
+                    <remoteUrl value="github.com/gpatrascu/games" />
+                  </remoteRepository>
+                </list>
+              </remoteRepositories>
+            </enhancedContext>
+          </enhancedContext>
+          <internalId value="b9869203-787e-4df8-b83e-2beaae13cda8" />
+        </chat>
+        <chat>
+          <enhancedContext>
+            <enhancedContext>
+              <remoteRepositories>
+                <list>
+                  <remoteRepository>
+                    <codebaseName value="github.com/gpatrascu/games" />
+                    <remoteUrl value="github.com/gpatrascu/games" />
+                  </remoteRepository>
+                </list>
+              </remoteRepositories>
+            </enhancedContext>
+          </enhancedContext>
+          <internalId value="51aff696-cee9-48de-b43b-43bd5d9f03ec" />
+          <llm>
+            <llm>
+              <model value="anthropic/claude-3-sonnet-20240229" />
+              <provider value="Anthropic" />
+              <title value="Claude 3 Sonnet" />
+            </llm>
+          </llm>
+        </chat>
       </list>
     </chats>
     <defaultEnhancedContext>
@@ -164,11 +212,19 @@
         <remoteRepositories>
           <list>
             <remoteRepository>
+              <codebaseName value="github.com/gpatrascu/games" />
               <remoteUrl value="github.com/gpatrascu/games" />
             </remoteRepository>
           </list>
         </remoteRepositories>
       </enhancedContext>
     </defaultEnhancedContext>
+    <defaultLlm>
+      <llm>
+        <model value="anthropic/claude-3-sonnet-20240229" />
+        <provider value="Anthropic" />
+        <title value="Claude 3 Sonnet" />
+      </llm>
+    </defaultLlm>
   </component>
 </project>

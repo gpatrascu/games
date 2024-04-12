@@ -1,20 +1,24 @@
+using System.Net.Http.Json;
+using Games.Api.IntegrationTests;
 
-namespace Games.Api.IntegrationTests;
-
-
-// generate API integration tests for the games.api project
 public class CardsTests : IClassFixture<TestWebApplicationFactory<Program>>
 {
-    [Fact]
-    public void ShouldCreateCard()
+    private readonly TestWebApplicationFactory<Program> _factory;
+    private readonly HttpClient _client;
+
+    public CardsTests(TestWebApplicationFactory<Program> factory)
     {
-        var response = await _httpClient.PostAsJsonAsync("/todos/v1", todo);
+        _factory = factory;
+        _client = _factory.CreateClient();
+    }
 
-        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+    [Fact]
+    public async Task CreateGame()
+    {
+        // Act
+        var response = await _client.PostAsJsonAsync("games", new StartGame());
 
-        var problemResult = await response.Content.ReadFromJsonAsync<HttpValidationProblemDetails>();
-
-        Assert.NotNull(problemResult?.Errors);
-        Assert.Collection(problemResult.Errors, (error) => Assert.Equal(errorMessage, error.Value.First()));
+        // Assert
+        response.EnsureSuccessStatusCode(); // Status Code 200-299
     }
 }

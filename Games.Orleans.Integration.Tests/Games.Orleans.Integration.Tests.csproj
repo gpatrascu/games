@@ -36,6 +36,7 @@
     <ItemGroup>
       <ProjectReference Include="..\games.api\games.api.csproj" />
       <ProjectReference Include="..\games.grains\games.grains.csproj" />
+      <ProjectReference Include="..\Games.SiloConfigurator\Games.SiloConfigurator.csproj" />
     </ItemGroup>
 
 </Project>

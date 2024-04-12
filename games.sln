@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Games.Cards.Tests", "Games.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Games.Api.IntegrationTests", "Games.Api.IntegrationTests\Games.Api.IntegrationTests.csproj", "{D4D45898-241E-4A18-A2DD-F6FD6CFCBD3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Games.SiloConfigurator", "Games.SiloConfigurator\Games.SiloConfigurator.csproj", "{CC6F4014-1DD8-475F-B06C-65C6057B620C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{D4D45898-241E-4A18-A2DD-F6FD6CFCBD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4D45898-241E-4A18-A2DD-F6FD6CFCBD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4D45898-241E-4A18-A2DD-F6FD6CFCBD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6F4014-1DD8-475F-B06C-65C6057B620C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6F4014-1DD8-475F-B06C-65C6057B620C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6F4014-1DD8-475F-B06C-65C6057B620C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6F4014-1DD8-475F-B06C-65C6057B620C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6ED29345-E533-4341-9B29-156F7A4CD9C6} = {6C6BADF0-C7DE-4A37-AB12-2B8CED78EEC8}
